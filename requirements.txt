@@ -1,0 +1,7 @@
+streamlit>=1.30.0
+opencv-python>=4.8.0
+ultralytics>=8.1.0
+vidgear[core]>=0.3.0
+yt-dlp>=2023.11.0
+Pillow>=10.0.0
+numpy>=1.24.0

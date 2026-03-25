@@ -1,0 +1,21 @@
+.git
+.gitignore
+.dockerignore
+.env
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore local datasets and heavy models caching during CI/CD build phases
+datasets/
+test_images/
+Model/*.pt
+Model/*.onnx
+
+# Ignore IDE configs
+.vscode/
+.idea/
