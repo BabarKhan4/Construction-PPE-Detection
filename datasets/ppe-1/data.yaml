@@ -1,0 +1,21 @@
+names:
+- Hardhat
+- Mask
+- NO-Hardhat
+- NO-Mask
+- NO-Safety Vest
+- Person
+- Safety Cone
+- Safety Vest
+- machinery
+- vehicle
+nc: 10
+roboflow:
+  license: MIT
+  project: ppe-a6gr5
+  url: https://universe.roboflow.com/project/ppe-a6gr5/dataset/1
+  version: 1
+  workspace: project
+test: ../test/images
+train: ../train/images
+val: ../valid/images
